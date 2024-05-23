@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Toyota",
+    "locations": "Chatswood, Parramatta, Castle Hill, Newtown",
+    "imageName": "CarsResources/toyota.jpg",
+    "thumbnailName": "CarsResources/toyota.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Honda",
+    "locations": "Sydney, Melbourne, Brisbane, Perth",
+    "imageName": "CarsResources/honda.jpg",
+    "thumbnailName": "CarsResources/honda.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Ford",
+    "locations": "Adelaide, Hobart, Darwin, Canberra",
+    "imageName": "CarsResources/ford.jpg",
+    "thumbnailName": "CarsResources/ford.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Nissan",
+    "locations": "Geelong, Ballarat, Bendigo, Albury",
+    "imageName": "CarsResources/nissan.jpg",
+    "thumbnailName": "CarsResources/nissan.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Mazda",
+    "locations": "Gold Coast, Sunshine Coast, Cairns, Townsville",
+    "imageName": "CarsResources/mazda.jpg",
+    "thumbnailName": "CarsResources/mazda.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "BMW",
+    "locations": "Chatswood, Parramatta, Castle Hill, Newtown",
+    "imageName": "CarsResources/bmw.jpg",
+    "thumbnailName": "CarsResources/bmw.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Audi",
+    "locations": "Sydney, Melbourne, Brisbane, Perth",
+    "imageName": "CarsResources/audi.jpg",
+    "thumbnailName": "CarsResources/audi.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Mercedes-Benz",
+    "locations": "Adelaide, Hobart, Darwin, Canberra",
+    "imageName": "CarsResources/mercedes.jpg",
+    "thumbnailName": "CarsResources/mercedes.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Volkswagen",
+    "locations": "Geelong, Ballarat, Bendigo, Albury",
+    "imageName": "CarsResources/volkswagen.jpg",
+    "thumbnailName": "CarsResources/volkswagen.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Land Rover",
+    "locations": "Gold Coast, Sunshine Coast, Cairns, Townsville",
+    "imageName": "CarsResources/landrover.jpg",
+    "thumbnailName": "CarsResources/landrover.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Tesla",
+    "locations": "Chatswood, Parramatta, Castle Hill, Newtown",
+    "imageName": "CarsResources/tesla.jpg",
+    "thumbnailName": "CarsResources/tesla.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "Nissan Leaf",
+    "locations": "Sydney, Melbourne, Brisbane, Perth",
+    "imageName": "CarsResources/nissan_leaf.jpg",
+    "thumbnailName": "CarsResources/nissan_leaf.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "Chevrolet Bolt",
+    "locations": "Adelaide, Hobart, Darwin, Canberra",
+    "imageName": "CarsResources/chevrolet_bolt.jpg",
+    "thumbnailName": "CarsResources/chevrolet_bolt.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "BMW i3",
+    "locations": "Geelong, Ballarat, Bendigo, Albury",
+    "imageName": "CarsResources/bmw_i3.jpg",
+    "thumbnailName": "CarsResources/bmw_i3.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "Audi e-tron",
+    "locations": "Gold Coast, Sunshine Coast, Cairns, Townsville",
+    "imageName": "CarsResources/audi_etron.jpg",
+    "thumbnailName": "CarsResources/audi_etron.jpg",
+    "type": "Electric"
+  }
+]
+[
+  {
+    "name": "Toyota",
+    "locations": "Chatswood, Parramatta, Castle Hill, Newtown",
+    "imageName": "CarsResources/toyota.jpg",
+    "thumbnailName": "CarsResources/toyota.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Honda",
+    "locations": "Sydney, Melbourne, Brisbane, Perth",
+    "imageName": "CarsResources/honda.jpg",
+    "thumbnailName": "CarsResources/honda.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Ford",
+    "locations": "Adelaide, Hobart, Darwin, Canberra",
+    "imageName": "CarsResources/ford.jpg",
+    "thumbnailName": "CarsResources/ford.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Nissan",
+    "locations": "Geelong, Ballarat, Bendigo, Albury",
+    "imageName": "CarsResources/nissan.jpg",
+    "thumbnailName": "CarsResources/nissan.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "Mazda",
+    "locations": "Gold Coast, Sunshine Coast, Cairns, Townsville",
+    "imageName": "CarsResources/mazda.jpg",
+    "thumbnailName": "CarsResources/mazda.jpg",
+    "type": "Petrol"
+  },
+  {
+    "name": "BMW",
+    "locations": "Chatswood, Parramatta, Castle Hill, Newtown",
+    "imageName": "CarsResources/bmw.jpg",
+    "thumbnailName": "CarsResources/bmw.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Audi",
+    "locations": "Sydney, Melbourne, Brisbane, Perth",
+    "imageName": "CarsResources/audi.jpg",
+    "thumbnailName": "CarsResources/audi.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Mercedes-Benz",
+    "locations": "Adelaide, Hobart, Darwin, Canberra",
+    "imageName": "CarsResources/mercedes.jpg",
+    "thumbnailName": "CarsResources/mercedes.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Volkswagen",
+    "locations": "Geelong, Ballarat, Bendigo, Albury",
+    "imageName": "CarsResources/volkswagen.jpg",
+    "thumbnailName": "CarsResources/volkswagen.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Land Rover",
+    "locations": "Gold Coast, Sunshine Coast, Cairns, Townsville",
+    "imageName": "CarsResources/landrover.jpg",
+    "thumbnailName": "CarsResources/landrover.jpg",
+    "type": "Diesel"
+  },
+  {
+    "name": "Tesla",
+    "locations": "Chatswood, Parramatta, Castle Hill, Newtown",
+    "imageName": "CarsResources/tesla.jpg",
+    "thumbnailName": "CarsResources/tesla.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "Nissan Leaf",
+    "locations": "Sydney, Melbourne, Brisbane, Perth",
+    "imageName": "CarsResources/nissan_leaf.jpg",
+    "thumbnailName": "CarsResources/nissan_leaf.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "Chevrolet Bolt",
+    "locations": "Adelaide, Hobart, Darwin, Canberra",
+    "imageName": "CarsResources/chevrolet_bolt.jpg",
+    "thumbnailName": "CarsResources/chevrolet_bolt.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "BMW i3",
+    "locations": "Geelong, Ballarat, Bendigo, Albury",
+    "imageName": "CarsResources/bmw_i3.jpg",
+    "thumbnailName": "CarsResources/bmw_i3.jpg",
+    "type": "Electric"
+  },
+  {
+    "name": "Audi e-tron",
+    "locations": "Gold Coast, Sunshine Coast, Cairns, Townsville",
+    "imageName": "CarsResources/audi_etron.jpg",
+    "thumbnailName": "CarsResources/audi_etron.jpg",
+    "type": "Electric"
+  }
+]
