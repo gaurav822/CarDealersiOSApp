@@ -56,6 +56,38 @@
                                 <rect key="frame" x="0.0" y="68" width="393" height="692"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="FavouriteCell" textLabel="9iO-mE-BpT" detailTextLabel="yxj-0a-YEV" rowHeight="111" style="IBUITableViewCellStyleSubtitle" id="aq0-Ks-ngo">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="111"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aq0-Ks-ngo" id="Y8P-df-ROn">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="111"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9iO-mE-BpT">
+                                                    <rect key="frame" x="20" y="40" width="25" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yxj-0a-YEV">
+                                                    <rect key="frame" x="19.999999999999996" y="56.333333333333336" width="43.666666666666664" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration" identifier="ManufactureCell">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                        <connections>
+                                            <segue destination="ubY-fD-n2k" kind="show" identifier="showCarDetail" id="T7x-E6-C7q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KbZ-GM-n9g"/>
@@ -63,7 +95,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Favourites" image="star.fill" catalog="system" id="hZs-MA-tV8"/>
                     <connections>
-                        <outlet property="mFavouriteTableView" destination="nv9-eD-aQq" id="QA0-I5-dOW"/>
+                        <outlet property="mFavouriteTableView" destination="nv9-eD-aQq" id="3CW-8s-nTz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jzv-Ar-qA5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -110,7 +142,7 @@
                                             <bool key="isElement" value="YES"/>
                                         </accessibility>
                                         <connections>
-                                            <segue destination="ubY-fD-n2k" kind="show" id="g1T-am-FvW"/>
+                                            <segue destination="ubY-fD-n2k" kind="show" identifier="showCarDetail" id="g1T-am-FvW"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -135,7 +167,7 @@
                     <navigationItem key="navigationItem" title="Car Dealers" id="e1H-es-pSF">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="DRz-c0-Nh6">
                             <connections>
-                                <segue destination="bjM-tl-J9N" kind="presentation" id="y6t-IK-ECa"/>
+                                <segue destination="bjM-tl-J9N" kind="presentation" identifier="addCarDetail" id="y6t-IK-ECa"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -167,6 +199,9 @@
             <point key="canvasLocation" x="-1477.0992366412213" y="722.53521126760563"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="g1T-am-FvW"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="list.bullet" catalog="system" width="128" height="87"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>

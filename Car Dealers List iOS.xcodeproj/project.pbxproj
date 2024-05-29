@@ -10,7 +10,6 @@
 		1F2F633B2BFF423600573389 /* Manufacture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F633A2BFF423600573389 /* Manufacture.swift */; };
 		1F2F633D2BFF47EE00573389 /* ManufactureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F633C2BFF47EE00573389 /* ManufactureModel.swift */; };
 		1F2F63542BFF6CD400573389 /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F63532BFF6CD400573389 /* cars.json */; };
-		1F2F63582BFF7A4700573389 /* ManufactureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F63572BFF7A4700573389 /* ManufactureCell.swift */; };
 		1F2F635A2BFF7EF400573389 /* AddCar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F63592BFF7EF400573389 /* AddCar.storyboard */; };
 		1F2F635C2BFF82A400573389 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F635B2BFF82A400573389 /* AddCarViewController.swift */; };
 		1F2F635E2BFF846D00573389 /* CarDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F635D2BFF846D00573389 /* CarDetail.storyboard */; };
@@ -49,7 +48,6 @@
 		1F2F633A2BFF423600573389 /* Manufacture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacture.swift; sourceTree = "<group>"; };
 		1F2F633C2BFF47EE00573389 /* ManufactureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactureModel.swift; sourceTree = "<group>"; };
 		1F2F63532BFF6CD400573389 /* cars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
-		1F2F63572BFF7A4700573389 /* ManufactureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactureCell.swift; sourceTree = "<group>"; };
 		1F2F63592BFF7EF400573389 /* AddCar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddCar.storyboard; sourceTree = "<group>"; };
 		1F2F635B2BFF82A400573389 /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
 		1F2F635D2BFF846D00573389 /* CarDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarDetail.storyboard; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				1F91B9D82BFE26D500DEFB0F /* Info.plist */,
 				1F91B9FE2BFE2E5200DEFB0F /* ManufactureViewController.swift */,
 				1F91BA002BFE2E8500DEFB0F /* FavouriteListController.swift */,
-				1F2F63572BFF7A4700573389 /* ManufactureCell.swift */,
 				1F2F635B2BFF82A400573389 /* AddCarViewController.swift */,
 				1F2F635D2BFF846D00573389 /* CarDetail.storyboard */,
 				1F2F635F2BFF866100573389 /* CarDetailsViewController.swift */,
@@ -311,7 +308,6 @@
 				1F2F633D2BFF47EE00573389 /* ManufactureModel.swift in Sources */,
 				1F2F633B2BFF423600573389 /* Manufacture.swift in Sources */,
 				1F2F635C2BFF82A400573389 /* AddCarViewController.swift in Sources */,
-				1F2F63582BFF7A4700573389 /* ManufactureCell.swift in Sources */,
 				1F91BA012BFE2E8500DEFB0F /* FavouriteListController.swift in Sources */,
 				1F2F63602BFF866100573389 /* CarDetailsViewController.swift in Sources */,
 				1F91B9CF2BFE26D300DEFB0F /* ViewController.swift in Sources */,

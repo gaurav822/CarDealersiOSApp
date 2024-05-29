@@ -9,8 +9,9 @@ import Foundation
 
 class ManufactureModel {
     
-    var manufactures : [Manufacture] = []
-    
+    private(set) var manufactures : [Manufacture] = []
+    private(set) var favouriteCars : [Manufacture] = []
+        
     init() {
         if let url = Bundle.main.url(forResource: "cars", withExtension: "json"){
             do{
@@ -28,5 +29,13 @@ class ManufactureModel {
         guard let type = type else {return manufactures}
         
         return manufactures.filter{$0.type == type}
+    }
+    
+    func add(manufacture: Manufacture){
+        manufactures.append(manufacture)
+    }
+    
+    func addToFavorites(manufacture:Manufacture){
+        favouriteCars.append(manufacture)
     }
 }
